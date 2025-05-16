@@ -16,14 +16,10 @@ As well as useful links to learn more */
  https://web.dev/articles/min-max-clamp
  https://scrimba.com/learn-css-variables-c026
 ====== Design Palette ====== */
-:root {
-  --paper: oklch(7 0 0);
-  --ink: color-mix(in oklab, var(--color) 5%, black);
-  --font: 100%/1.5 system-ui;
-  --space: clamp(6px, 6px + 2vw, 15px);
-  --line: 1px solid;
-  --container: 1280px;
+* {
+  box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -87,5 +83,5 @@ footer {
   text-align: center;
   padding: 1rem 0;
   font-size: 0.9rem;
-  
+  z-index: 100;
 }
