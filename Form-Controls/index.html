@@ -12,7 +12,34 @@
       <h1>Product Pick</h1>
     </header>
     <main>
-      <form>
+      <form action = "results.html" method="GET">
+        <div>
+          <label for="name">Name </label>
+          <input type="text" name="name" id="name" placeholder="YourName" required>
+        </div>
+        <div>
+           <label for="email"> Email </label>
+          <input type="email" name="email" id="email" placeholder="YourEmail" required>
+        </div>
+        <div>
+          <label for="T-shirt colour">T-shirt colour </label>
+          <select name="T-shirt_colour" id="T-shirt_colour">
+            <option value="Green"> Green </option>
+            <option value="red"> red </option>
+            <option value="blue"> blue </option>
+          </select>
+        </div>
+        <div>
+          <label for="T-shirt size"> T-shirt Size </label>
+          <select name="T-shirt_size" id="T-shirt_size">
+            <option value="XS"> XS </option>
+            <option value="S"> S </option>
+            <option value="M"> M </option>
+            <option value="L"> L </option>
+            <option value="XL"> XL </option>
+          </select>
+        </div>
+        <button type="submit" >Submit</button>
         <!-- write your html here-->
         <!-- 
           try writing out the requirements first as comments
@@ -20,7 +47,7 @@
       </form>
     </main>
     <footer>
-      <!-- change to your name-->
+      <p>Tarek Abounaheya</p>
       <h2>By HOMEWORK SOLUTION</h2>
     </footer>
   </body>
