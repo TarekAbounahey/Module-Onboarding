@@ -12,39 +12,44 @@
       <h1>Product Pick</h1>
     </header>
     <main>
-      <form >
+      <form>
         <div>
-          <label for="name">Name </label>
+          <label for="name">Name</label>
           <input type="text" name="name" id="name" placeholder="YourName" required>
         </div>
+        <br>
         <div>
-           <label for="email"> Email </label>
+          <label for="email">Email</label>
           <input type="email" name="email" id="email" placeholder="YourEmail" required>
         </div>
+        <br>
         <div>
-          <label for="T-shirt colour">T-shirt colour </label>
-          <select name="T-shirt_colour" id="T-shirt_colour">
-            <option value="Green"> Green </option>
-            <option value="red"> red </option>
-            <option value="blue"> blue </option>
+          <label for="tshirt_colour">T-shirt Colour</label>
+          <select name="T-shirt_colour" id="tshirt_colour" required>
+            <option value="" disabled selected hidden>Please select a color</option>
+            <option value="Green">Green</option>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
           </select>
         </div>
+        <br>
         <div>
-          <label for="T-shirt size"> T-shirt Size </label>
-          <select name="T-shirt_size" id="T-shirt_size">
-            <option value="XS"> XS </option>
-            <option value="S"> S </option>
-            <option value="M"> M </option>
-            <option value="L"> L </option>
-            <option value="XL"> XL </option>
+          <label for="tshirt_size">T-shirt Size</label>
+          <select name="T-shirt_size" id="tshirt_size" required>
+            <option value="" disabled selected hidden>Please select your Size</option>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
           </select>
         </div>
-        <button type="submit" >Submit</button>
+        <br>
+        <button type="submit">Submit</button>
       </form>
     </main>
     <footer>
-      <p>Tarek Abounaheya</p>
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>By Tarek Abounaheya</h2>
     </footer>
   </body>
 </html>
